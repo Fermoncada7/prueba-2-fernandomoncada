@@ -1,0 +1,54 @@
+:root{
+	--color-hover-menu:#FE8F01;
+	--fondo-header:#3d3d3d;
+	--fondo-footer: #333333;
+	--letra-footer: #bababa;
+}
+
+body{
+	font-size: 14px;
+	 font-family: 'Open Sans'; 
+}
+
+header{
+	background-color: var(--fondo-header);
+	padding: 10px 0;
+}
+
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--letra-footer);
+	padding: 15px 0;
+	text-align: center;
+}
+
+h1 {
+	font-size: 60px;
+	
+}
+
+
+.about-card {
+  background-color: #494949; 
+  color: white; 
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+  font-family: 'Open Sans';
+}
+
+.icon i {
+  color: #fe8f01; 
+}
+
+.counter {
+	background-color: #010101;
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.counter-text {
+  color: #fe8f01;
+}
+
+
